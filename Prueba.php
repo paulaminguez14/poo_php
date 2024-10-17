@@ -4,7 +4,7 @@
     $c1 = new Cliente("Paula Domínguez");
     $c2 = new Cliente("Rocío González");
 
-    $productofisico = new ProductoFisico("Telefono", precio: 1000, 0.5);
+    $productofisico = new ProductoFisico("Telefono", 1000, 0.5);
     echo "Nombre: " . $productofisico->getNombre() . ", Precio: " . $productofisico->getPrecio() . ", Peso: " . $productofisico->calculaPrecioFinal();
 
 ?>
